@@ -16,7 +16,7 @@ function  Blog() {
                     {
                       language.map((item,key)=>{
                         return(
-                          <div className='py-2 m-1'>
+                          <div className='py-2 m-1' key={key}>
                             <Image src = {`/${item}.svg`}
                                             width={50}
                                             height={50}
@@ -37,8 +37,8 @@ function  Blog() {
                 
                   <div className="grid grid-cols-2 content-evenly place-items-center py-2 text-cyan-500 text-xl">
                     {
-                    skills.map((item)=>{return(
-                        <div className='py-2'>{item}</div>
+                    skills.map((item,key)=>{return(
+                        <div className='py-2' key={key}>{item}</div>
                       )
                       })
                     }
@@ -51,9 +51,9 @@ function  Blog() {
                 </div>
                 <div className="grid grid-cols-4 content-evenly place-items-center py-2">
                       {
-                        tech.map((item)=>{
+                        tech.map((item,key)=>{
                           return(
-                            <div className='py-2 m-1 '>
+                            <div className='py-2 m-1 ' key={key}>
                             <Image src={`/${item}.svg`} 
                                             width={50}
                                             height={50}
@@ -77,8 +77,8 @@ function  Blog() {
                 </div>
                 <div className="grid grid-cols-1 content-evenly place-items-center py-2 text-cyan-500 text-xl">
                 {
-                    interest.map((item)=>{return(
-                        <div className='py-2'>{item}</div>
+                    interest.map((item,key)=>{return(
+                        <div className='py-2' key={key}>{item}</div>
                       )
                       })
                     }
