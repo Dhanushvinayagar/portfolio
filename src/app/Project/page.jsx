@@ -33,9 +33,9 @@ function Project() {
   return (
     <div className="grid grid-cols-1 gap-4 place-items-center h-56 py-2 px-5">
       {
-        project.map((item)=>{
+        project.map((item,key)=>{
           return(
-             <div className="max-w-sm p-7  border border-lime-200 rounded-lg">
+             <div className="max-w-sm p-7  border border-lime-200 rounded-lg" key={key}>
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-cyan-400  ">{item.proname}</h5>
                   <hr className='p-1'></hr>
                   <p className="mb-3 font-normal text-lime-100 dark:text-lime-100">{item.desc}</p>
@@ -45,9 +45,9 @@ function Project() {
                       (el,key)=>{
                         return(
                           <div key={key}>
-                          <li className="mb-3 font-normal text-lime-100 dark:text-lime-50">{el}
-                          </li>
-                            </div>
+                                  <li className="mb-3 font-normal text-lime-100 dark:text-lime-50">{el}
+                                  </li>
+                          </div>
                         )
                       }
                     )

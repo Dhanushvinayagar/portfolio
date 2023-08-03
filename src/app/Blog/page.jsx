@@ -65,7 +65,7 @@ function  Blog() {
                         })
                       }
                         <div className='py-2 m-1 '>
-                      <img width={"100%"} height={"100"} src={"https://img.icons8.com/external-soft-fill-juicy-fish/60/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png"} alt="pic"/>
+                      <Image width={100} height={100} src={"https://img.icons8.com/external-soft-fill-juicy-fish/60/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png"} alt="pic"/>
                         {/* SQL */}
                         </div>
                   </div>
