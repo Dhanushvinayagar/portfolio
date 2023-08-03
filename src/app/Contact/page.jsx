@@ -26,12 +26,12 @@ function Contact() {
   return (
     <>
     
-       <div class="flex p-2  place-content-center space-x-5 ">
+       <div className="flex p-2  place-content-center space-x-5 ">
           <h1 className='text-3xl font-semibold'>Contact details
           </h1>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-1 justify-items-stretch  lg:px-80  md:w-screen px-2">
+      <div className="grid grid-cols-1 md:grid-cols-1 justify-items-stretch  lg:px-80  md:w-screen px-2">
                               {
                                   details.map((item,key)=>{
                                       return (

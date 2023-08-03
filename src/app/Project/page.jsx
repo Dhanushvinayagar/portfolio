@@ -31,7 +31,7 @@ function Project() {
 
   ]
   return (
-    <div class="grid grid-cols-1 gap-4 place-items-center h-56 py-2 px-5">
+    <div className="grid grid-cols-1 gap-4 place-items-center h-56 py-2 px-5">
       {
         project.map((item)=>{
           return(

@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main classNameName="h-screen m-1 p-7  border border-lime-200 rounded-lg">
+    <main className="h-screen m-1 p-7  border border-lime-200 rounded-lg">
         
             
       
-<div class="flex  justify-center py-2">
+<div className="flex  justify-center py-2">
         <div className='border border-lime-200 rounded-lg w-5/6'>
           <h3 className='flex justify-center text-3xl font-semibold text-teal-700 p-2'>
             About me
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         
     </div>
-    <div class="flex  justify-center py-2">
+    <div className="flex  justify-center py-2">
         <div className='border border-lime-200 rounded-lg w-5/6 '>
         <h3 className='flex justify-center text-3xl font-semibold text-teal-700 p-2'>
             Educational details
