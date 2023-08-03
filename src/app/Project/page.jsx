@@ -39,7 +39,7 @@ function Project() {
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-cyan-400  ">{item.proname}</h5>
                   <hr className='p-1'></hr>
                   <p className="mb-3 font-normal text-lime-100 dark:text-lime-100">{item.desc}</p>
-                  <h6 className="mb-2 text-1xl font-bold tracking-tight text-gray-700 dark:text-cyan-600 underline underline-offset-1">Technology</h6>
+                  <h6 className="mb-2 text-1xl font-bold tracking-tight text-black-700 dark:text-cyan-600 underline underline-offset-1">Technology</h6>
                   {
                     item.tech.map(
                       (el,key)=>{
@@ -54,7 +54,7 @@ function Project() {
                      
                   }
                   <a href={`${item.github}`} target='_blank'>
-                    <button  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <button  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Github                        
                     </button>
                   </a>

@@ -24,7 +24,7 @@ function Contact() {
     }
   ]
   return (
-    <div className='bg-black'>
+    <div className='bg-black h-screen'>
     
        <div className="flex p-2  place-content-center space-x-5 ">
           <h1 className='text-3xl font-semibold'>Contact details
