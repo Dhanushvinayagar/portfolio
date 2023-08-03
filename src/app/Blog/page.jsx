@@ -6,7 +6,7 @@ function  Blog() {
   const tech = ["html","css","bs","tailwind","react","node","next","dj","graphql","mongo"]
   const interest = ["Web development","Object oriented program (OOPS)","Database Management(DBMS)","Computer Networks","Internet of Things (IOT)"]
   return (
-    <div className='d-flex px-1 m-1 text-white-500  rounded-lg text-2xl space-y-2'>
+    <div className='d-flex px-1 m-1 text-white-500  rounded-lg text-2xl space-y-2 bg-black'>
 
               <div className='py-5 bg-white-100  border border-lime-200 rounded-lg' >
                 <div className='font-semibold border-b border-lime-200 text-center'>

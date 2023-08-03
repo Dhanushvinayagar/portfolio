@@ -35,7 +35,7 @@ function Project() {
       {
         project.map((item,key)=>{
           return(
-             <div className="max-w-sm p-7  border border-lime-200 rounded-lg" key={key}>
+             <div className="max-w-sm p-7  border border-lime-200 rounded-lg bg-black" key={key}>
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-cyan-400  ">{item.proname}</h5>
                   <hr className='p-1'></hr>
                   <p className="mb-3 font-normal text-lime-100 dark:text-lime-100">{item.desc}</p>
