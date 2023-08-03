@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="h-screen m-1 p-7  border border-lime-200 rounded-lg">
+    <main className="h-screen m-1 p-7 rounded-lg">
         
             
       
@@ -45,7 +45,7 @@ export default function Home() {
           <p className='border border-lime-200'></p>
           <div className='p-2 font-normal text-lime-100 dark:text-lime-100'>
               <li>                
-                  Kongu Engineering College (2020-2024) with <b>CGPA : <e>9.24</e></b>
+                  Kongu Engineering College (2020-2024) with <b>CGPA : <i>9.24</i></b>
               </li>
               <li>
                   HSC-II with <b>87%</b>

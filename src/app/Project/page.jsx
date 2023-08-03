@@ -4,26 +4,26 @@ import React from 'react'
 function Project() {
   const project = [
       {
-        "name":"Portfolio",
+        "proname":"Portfolio",
         "desc":"Prototype with of this project deals with the comics ,movies,series",
         "tech":['Next js','Tailwind CSS',"Javascript"],
         "github":"https://github.com/Dhanushvinayagar/portfolio"
       },
 
       {
-        "name":"Consultancy project",
+        "proname":"Consultancy project",
         "desc":"This is the consultancy project that have commercial features for merchants to trade the rice to the customers.",
         "tech":['HTML','CSS',"Javascript","Django"],
         "github":"https://github.com/Dhanushvinayagar/Dhanamtrades"
       },
       {
-        "name":"Comic-on",
+        "proname":"Comic-on",
         "desc":"This project deals with the checking of the comics ,movies,series.",
         "tech":['React','Node','Express','Mongodb'],
         "github":"https://github.com/Dhanushvinayagar/Comics"
       },
       {
-        "name":"Smart transportation",
+        "proname":"Smart transportation",
         "desc":"This project deals with the smart card transportation using rfid and a mobile app to check and pay the travelling amount using virtual cash.",
         "tech":['IOT','Flutter'],
         "github":"https://github.com/GOKULKRISHNA-R/Smart-Transportation"
@@ -36,16 +36,18 @@ function Project() {
         project.map((item)=>{
           return(
              <div className="max-w-sm p-7  border border-lime-200 rounded-lg">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-cyan-400  ">{item.name}</h5>
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-900 dark:text-cyan-400  ">{item.proname}</h5>
                   <hr className='p-1'></hr>
                   <p className="mb-3 font-normal text-lime-100 dark:text-lime-100">{item.desc}</p>
                   <h6 className="mb-2 text-1xl font-bold tracking-tight text-gray-700 dark:text-cyan-600 underline underline-offset-1">Technology</h6>
                   {
                     item.tech.map(
-                      (el)=>{
+                      (el,key)=>{
                         return(
+                          <div key={key}>
                           <li className="mb-3 font-normal text-lime-100 dark:text-lime-50">{el}
                           </li>
+                            </div>
                         )
                       }
                     )
